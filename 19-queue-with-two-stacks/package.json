@@ -1,0 +1,12 @@
+{
+  "main": "app.js",
+  "description": "Testable js file from yeoman generator testable-js",
+  "private" : true,
+  "dependencies": {},
+  "devDependencies": {
+    "chai": "^3.5.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  }
+}
