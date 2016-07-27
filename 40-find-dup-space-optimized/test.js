@@ -21,7 +21,7 @@ describe('App', () => {
     let arr = [1,2,3,4,1];
     assert.equal(app.findFirstDupeNonDestructive(arr), 1, "expected to find 1");
     assert.equal(app.findFirstDupeNonDestructive([1,2,1]), 1, "expected to find 1");
-    assert.equal(app.findFirstDupeNonDestructive([2,2,1,2,3,4,5,6]), 2, "expected to find 2");
+    assert.equal(app.findFirstDupeNonDestructive([2,2,1,3,4,5,6]), 2, "expected to find 2");
     assert.equal(app.findFirstDupeNonDestructive([2,1,1]), 1, "expected to find 1");
     assert.equal(app.findFirstDupeNonDestructive([1,2,3,4,5,5]), 5, "expected to find 5");
   });
